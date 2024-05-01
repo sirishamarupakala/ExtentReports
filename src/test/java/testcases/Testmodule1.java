@@ -25,5 +25,11 @@ public class Testmodule1 {
 		System.out.println("executed test case 3");
 	}
 	
+	@Test(priority=4)
+	public void testcase4()
+	{
+		System.out.println("executed test case 4");
+	}
+	
 	
 }
